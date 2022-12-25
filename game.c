@@ -65,6 +65,9 @@ void makelogic(){
         Score+=10;
         piece++;
     }
+    else{
+        printf("\n\tGame Over");
+    }
     
 }
 
