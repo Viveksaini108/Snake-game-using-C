@@ -51,10 +51,11 @@ void makelogic(){
     if (x==0 || x==height || y==0 || y==width) // When snake touces the wal, it will end the game
     {
         GameEnd=1;
+        printf("\n\t*****Game Over*****");
     }
     if(x==fruitX && y==fruitY){
         label3:
-        fruitX=rand()%50;
+        fruitX=rand()%20;
         if(fruitX==0)
         goto label3;
     
@@ -64,9 +65,6 @@ void makelogic(){
         goto label4;
         Score+=10;
         piece++;
-    }
-    else{
-        printf("\n\t*****Game Over*****");
     }
     
 }
