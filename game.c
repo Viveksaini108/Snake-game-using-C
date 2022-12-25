@@ -154,7 +154,8 @@ void draw(){
         }
         printf("\n");
     }
-    printf("Your score is: %d",Score);
+    printf("Your score is: %d \n",Score);
+    printf("This Game is created By Vivek Saini");
     
 }
 int main(){
