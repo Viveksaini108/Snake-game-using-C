@@ -66,7 +66,7 @@ void makelogic(){
         piece++;
     }
     else{
-        printf("\n\tGame Over");
+        printf("\n\t*****Game Over*****");
     }
     
 }
